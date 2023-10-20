@@ -1,0 +1,36 @@
+body {
+    background-color: #e5e4e2;
+}
+
+div p{
+    background-color: #ffffff;
+    color: green;
+    background-image: url("../images/ystripes.jpeg");
+    height: 300px;
+    width: 50%;
+
+    border-style: solid dashed;
+    border-width: 5px;
+    border-color: blue green red orange;
+
+    margin: 25px;
+    padding: 10px;
+
+    font-size: 1.5rem;
+
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+#gn {
+    color: red;
+}

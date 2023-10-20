@@ -1,0 +1,13 @@
+#left{
+    background-color: red;
+    float: left;
+    width: 55%;
+    padding: 5px;
+}
+
+#right{
+    background-color: blue;
+    float: right;
+    width: 35%;
+    padding: 5px;
+}

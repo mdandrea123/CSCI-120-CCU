@@ -1,0 +1,26 @@
+table{
+    border: solid 1pt black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+td, th, caption{
+    border: solid 1pt black;
+    padding: 10px;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #46c7c7;
+}
+
+tbody tr:nth-child(odd){
+    background-color: yellow;
+}
+
+tbody tr:hover{
+    background-color: orange;
+    color: grey;
+}
+

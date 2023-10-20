@@ -1,0 +1,17 @@
+table{
+    border: solid 1pt black;
+    border-collapse: collapse;
+    background-color: lightblue;
+    color: green;
+    width: 75%;
+}
+
+td, th, legend{
+    border: solid 1pt black;
+    padding: 15px;
+}
+
+legend{
+    background-color: lightblue;
+    width: 71.5%;
+}

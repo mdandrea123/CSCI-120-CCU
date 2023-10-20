@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Intro to Forms </title>
+    </head>
+    <body>
+        <form method="get" action="#">
+            <fieldset>
+                <legend> Customer Information </legend>
+                <p> 
+                    <label for="cName"> Name: </label>
+                    <input type="text" name="cName" id="cName">
+                </p>
+                <p>
+                    <label for="cCountry"> Country: </label>
+                    <select name="cCountry" id="cCountry">
+                        <option> Choose a Country: </option>
+                        <option> Canada </option>
+                        <option> China </option>
+                        <option> Finland </option>
+                        <option> Ireland </option>
+                        <option> Norway </option>
+                        <option> USA </option>
+                    </select>
+                </p>
+                <p>
+                    <label for="cPass"> Password: </label>
+                    <input type="password" name="cPass" id="cPass">
+                </p>
+                <p>
+                    <label for="cSummary"> Comments: </label>
+                    <textarea name="cSummary" id="cSummary" rows="5" cols="75"> Type Info Here </textarea>
+                </p>
+                <p>
+                    <label for="cEmail"> Email: </label>
+                    <input type="email" name="cEmail" id ="cEmail">
+                </p>
+                <p>
+                    <label for="cPhone"> Phone: </label>
+                    <input type="text"  name="cPhone" id="cPhone" placeholder="###-###-####" required="true">
+                </p>
+                <p>
+                    <label for="cDate"> Date </label>
+                    <input type="date" name="cDate" id="cDate">
+                </p>
+            </fieldset>
+        </form>
+    </body>
+    <footer>
+
+    </footer>
+</html>

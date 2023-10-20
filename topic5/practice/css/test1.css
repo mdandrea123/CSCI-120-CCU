@@ -1,0 +1,17 @@
+div, p, header, li{
+    background-color: #89cff0;
+    margin: 5px;
+}
+
+span{
+    background-color: #cd7f32;
+    margin: 5px;
+}
+
+li{
+    display: inline;
+}
+
+span{
+    display: block;
+}

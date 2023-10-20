@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Michael's Bookstore </title>
+    <link rel="stylesheet" href="../project/styles/bookStyles.css">
+</head>
+
+<body>
+    <header>
+        <h1> Help Us Serve You Better </h1>
+        <nav>
+            <ul>
+                <li><a href=" index.html"> Home </a></li>
+                <li><a href="about.html"> About Us </a></li>
+                <li><a href="fiction.html"> Fiction </a></li>
+                <li><a href="nonfiction.html"> Non-Fiction </a></li>
+                <li><a href="teens.html"> Teens & YA </a></li>
+                <li><a href="kids.html"> Kids </a></li>
+                <li><a href="locations.html"> Locations </a></li>
+                <li><a href="contact.html"> Contact Us </a></li>
+                <li><a href="events.html"> Events </a></li>
+                <li><a href="order.html"> Online Ordering </a></li>
+            </ul>
+        </nav>
+    </header>
+    <form method="get" action="#">
+        <fieldset>
+            <legend> Customer Feedback </legend>
+            <p>
+                <label for="cPhone"> Phone: </label>
+                <input type="text" name="cPhone" id="cPhone" placeholder="###-###-####">
+            </p>
+            <p>
+                <label for="cName"> Name: </label>
+                <input type="text" name="cName" id="cName" required="true">
+            </p>
+            <p>
+                <label for="purchased"> Book Purchased: </label>
+                <select name="purchased" id="purchased">
+                    <option> Choose One: </option>
+                    <option> The Handmaids Tale </option>
+                    <option> Ruination </option>
+                    <option> Ninteen Eighty-Four </option>
+                    <option> Magyk </option>
+                    <option> The Invisible Kingdom </option>
+                    <option> I am Malala </option>
+                    <option> Hiroshima </option>
+                    <option> And There Was Light </option>
+                    <option> The Outsiders </option>
+                    <option> The Hunger Games </option>
+                    <option> Harry Potter and the Sorcerer's Stone </option>
+                    <option> Percy Jackson and the Olympians: The Lightning Thief </option>
+                    <option> Cat In The Hat </option>
+                    <option> The Giving Tree </option>
+                    <option> Brown Bear, Brown Bear, What Do You See? </option>
+                    <option> Green Eggs And Ham </option>
+                    <option> N/A </option>
+                </select>
+            </p>
+            <p>
+                <label for="service"> Service Rating: </label>
+                <input type="range" id="service" name="service" min="1" max="10">
+            </p>
+            <p>
+                <label for="comments"> Comments: </label>
+                <input type="textarea" name="comments" id="comments">
+            </p>
+            <p> Time Visited:<br>
+                <input type="radio" name="time" id="time" value="Morning">
+                <label for="time"> Morning </label><br>
+                <input type="radio" name="time" id="time" value="Afternoon">
+                <label for="time"> Afternoon </label><br>
+                <input type="radio" name="time" id="time" value="Evening">
+                <label for="time"> Evening </label>
+
+            </p>
+            <p>
+                <label for="permission"> I Give Permission To Publish This Survey: </label>
+                <input type="checkbox" name="permission" id="permission">
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear Form"
+            </p>
+        </fieldset>
+    </form>
+</body>
+<footer>
+    <ul>
+        <li><a href="survey.html"> Survey </a></li>
+        <li><a href="employment.html"> Job Opportunities </a></li>
+    </ul>
+    <p> Dandrea Designs &copy; 2023</p>
+</footer>
+
+</html>

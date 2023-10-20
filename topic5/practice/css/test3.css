@@ -1,0 +1,4 @@
+p.hide{
+   /* visibility: hidden; keeps the space */
+   display: none; /* removes the space of the tag */
+}
